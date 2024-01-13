@@ -1,0 +1,7 @@
+ /* NewExpense.css */
+  
+  /* Apply styles to the container of NewExpenseForm */
+  div {
+    max-width: 700px;
+    margin: 20px auto;
+  }

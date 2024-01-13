@@ -1,0 +1,39 @@
+/* Apply styles to the form container */
+form {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color :#303337;
+}
+
+/* Style form labels */
+label {
+    margin-bottom: 8px;
+}
+
+/* Style form inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+button {
+    background-color:#40005d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a230d7;
+}
